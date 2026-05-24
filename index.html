@@ -79,6 +79,17 @@
   .credit{font-size:11px;color:var(--ink-soft);margin:0 0 14px}
   .thumb-img{height:150px;overflow:hidden;background:var(--blue-soft)}
   .thumb-img img{width:100%;height:100%;object-fit:cover;display:block}
+  .portmap{background:#eaf4fb;border:1px solid var(--line);border-radius:14px;padding:10px;margin-bottom:14px}
+  .portmap svg{width:100%;height:auto;display:block}
+  details.fold{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:14px;overflow:hidden}
+  details.fold>summary{cursor:pointer;padding:13px 16px;font-weight:700;color:var(--blue);background:var(--blue-soft);list-style:none}
+  details.fold>summary::-webkit-details-marker{display:none}
+  details.fold>summary::after{content:"＋ タップで開く";float:right;font-size:12px;font-weight:500;color:var(--ink-soft)}
+  details.fold[open]>summary::after{content:"− 閉じる"}
+  details.fold .pad{padding:14px 16px}
+  .pcard{font-size:13px;line-height:1.7}
+  .pcard b{color:var(--blue)}
+  .pc-line{margin-top:4px}
   .rest{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
   .rest:last-child{border-bottom:none}
   .rest .rttl{font-weight:700;font-size:15px}
@@ -109,6 +120,7 @@
   <a href="#rest">レストラン予約</a>
   <a href="#food">25周年フード</a>
   <a href="#goods">お土産</a>
+  <a href="#map">エリア/ポップコーン</a>
   <a href="#rain">雨天・休憩</a>
   <a href="#prep">事前準備</a>
 </nav>
@@ -333,6 +345,75 @@
     </div>
     <p class="credit">写真：オリエンタルランド公式リリース（PR TIMES）</p>
     <div class="note"><b>ばらまき土産：</b>個包装のマシュマロ缶（800円）等も。人気の新作は<b>午前の早い時間</b>か夜の混雑前に。閉園間際は売り切れ・レジ混雑に注意。</div>
+  </section>
+
+  <!-- エリアマップ＆ポップコーン -->
+  <section id="map">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>エリアマップ＆ポップコーン</h2>
+    <p class="lead">シーは8つのエリア（テーマポート）に分かれています。どこに何があるか、ポップコーンの味マップ付き。</p>
+
+    <details class="fold">
+      <summary>🗺 シーのエリアマップ（位置の目安）</summary>
+      <div class="pad">
+        <div class="portmap">
+          <svg viewBox="0 0 360 340" role="img" aria-label="ディズニーシー エリア配置図">
+            <!-- 火山 -->
+            <polygon points="180,118 150,182 210,182" fill="#b08968"/>
+            <polygon points="180,118 168,144 192,144" fill="#fff"/>
+            <text x="180" y="198" font-size="7.5" fill="#5b6b7a" text-anchor="middle">ミステリアスアイランド</text>
+            <!-- ファンタジースプリングス -->
+            <g><rect x="100" y="12" width="160" height="30" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="174" y="31" font-size="8.5" fill="#22303f" text-anchor="middle">ファンタジースプリングス 🍿</text></g>
+            <!-- ロストリバーデルタ -->
+            <g><rect x="256" y="58" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="303" y="74" font-size="7.5" fill="#22303f" text-anchor="middle">ロストリバー</text><text x="303" y="86" font-size="7.5" fill="#22303f" text-anchor="middle">デルタ 🍿</text></g>
+            <!-- アラビアンコースト -->
+            <g><rect x="10" y="58" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="57" y="74" font-size="7.5" fill="#22303f" text-anchor="middle">アラビアン</text><text x="57" y="86" font-size="7.5" fill="#22303f" text-anchor="middle">コースト 🍿</text></g>
+            <!-- ポートディスカバリー -->
+            <g><rect x="256" y="140" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="303" y="156" font-size="7.5" fill="#22303f" text-anchor="middle">ポート</text><text x="303" y="168" font-size="7.5" fill="#22303f" text-anchor="middle">ディスカバリー 🍿</text></g>
+            <!-- マーメイドラグーン -->
+            <g><rect x="10" y="140" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="57" y="156" font-size="7.5" fill="#22303f" text-anchor="middle">マーメイド</text><text x="57" y="168" font-size="7.5" fill="#22303f" text-anchor="middle">ラグーン 🍿</text></g>
+            <!-- アメリカンウォーターフロント -->
+            <g><rect x="232" y="232" width="118" height="40" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="291" y="249" font-size="7.5" fill="#22303f" text-anchor="middle">アメリカン</text><text x="291" y="261" font-size="7.5" fill="#22303f" text-anchor="middle">ウォーターフロント 🍿</text></g>
+            <!-- メディテレーニアンハーバー -->
+            <g><rect x="88" y="288" width="184" height="40" rx="8" fill="#fff" stroke="#c19a3e" stroke-width="1.5"/><text x="180" y="305" font-size="8.5" fill="#22303f" text-anchor="middle">メディテレーニアンハーバー 🍿</text><text x="180" y="318" font-size="7.5" fill="#5b6b7a" text-anchor="middle">（入口・ソアリン・夜のショー）</text></g>
+          </svg>
+        </div>
+        <p class="credit">配置はおおよその目安です。正確な現在地は公式アプリの地図を併用してください。</p>
+      </div>
+    </details>
+
+    <h3>🍿 ポップコーン味マップ</h3>
+    <p class="lead">全味 レギュラーボックス¥400／リフィル¥600（バケットは別売）。2026年5月時点。</p>
+    <table class="sum">
+      <tr><th>場所（エリア）</th><th>味</th></tr>
+      <tr><td>リドアイル前（メディテレーニアン）</td><td>ガーリックシュリンプ</td></tr>
+      <tr><td>ソアリン前（メディテレーニアン）</td><td>ブラックペッパー</td></tr>
+      <tr><td>ドックサイドステージ前（アメリカンWF）</td><td>キャラメル</td></tr>
+      <tr><td>リバティ前（アメリカンWF）</td><td>ホタテガーリックバター</td></tr>
+      <tr><td>ケープコッド前（アメリカンWF）</td><td>ミルクチョコレート</td></tr>
+      <tr><td>アクアトピア横（ポートディスカバリー）</td><td>しょうゆバター</td></tr>
+      <tr><td>ハンガーステージ横（ロストリバーD）</td><td>ソルト</td></tr>
+      <tr><td>コーヴ・オブ・ワンダー横（ロストリバーD）</td><td>キャラメル</td></tr>
+      <tr><td>アラビアンコースト前</td><td>カレー</td></tr>
+      <tr><td>スカットルのスクーター前（マーメイド）</td><td>ホタテガーリックバター</td></tr>
+      <tr><td>ティンカーベル前（ファンタジースプリングス）</td><td>ガーリックシュリンプ</td></tr>
+    </table>
+    <div class="note">甘いのが好きなら<b>キャラメル／ミルクチョコ</b>、しょっぱい系は<b>ソルト／しょうゆバター</b>が子供に人気。ダッフィーのショー（ケープコッド）の近くは<b>ミルクチョコレート</b>です。</div>
+
+    <details class="fold">
+      <summary>📍 エリア別 早見（メニュー・アトラクションの場所）</summary>
+      <div class="pad">
+        <div class="grid">
+          <div class="card"><div class="pcard"><b>メディテレーニアンハーバー</b>（入口）<div class="pc-line">🍿 ガーリックシュリンプ／ブラックペッパー</div><div class="pc-line">🍽 マカロン・チュロス・スパークリングドリンク・ザンビーニのセット・マゼランズ</div><div class="pc-line">🎢 ソアリン／夜「ビリーヴ」</div></div></div>
+          <div class="card"><div class="pcard"><b>アメリカンウォーターフロント</b><div class="pc-line">🍿 キャラメル／ホタテガーリックバター／ミルクチョコ</div><div class="pc-line">🍽 ダッフィーのショーレストラン（ケープコッド・13:35予約）・サンデー</div><div class="pc-line">🎢 トイ・ストーリー・マニア</div></div></div>
+          <div class="card"><div class="pcard"><b>ファンタジースプリングス</b><div class="pc-line">🍿 ガーリックシュリンプ</div><div class="pc-line">🎢 ピーターパン・ラプンツェル・ティンカーベル</div></div></div>
+          <div class="card"><div class="pcard"><b>アラビアンコースト</b><div class="pc-line">🍿 カレー</div><div class="pc-line">🍽 カスバ・フードコート（カレー・ラッシー）</div><div class="pc-line">🎢 キャラバンカルーセル・ジャスミン・シンドバッド</div></div></div>
+          <div class="card"><div class="pcard"><b>ポートディスカバリー</b><div class="pc-line">🍿 しょうゆバター</div><div class="pc-line">🍽 ホライズンベイ・レストラン（お子様セット）</div><div class="pc-line">🎢 ニモ&フレンズ・シーライダー（90cm）</div></div></div>
+          <div class="card"><div class="pcard"><b>ロストリバーデルタ</b><div class="pc-line">🍿 ソルト／キャラメル</div><div class="pc-line">🍽 ミゲルズ（うきわまんセット）</div><div class="pc-line">🎢 インディは休止中</div></div></div>
+          <div class="card"><div class="pcard"><b>マーメイドラグーン</b><div class="pc-line">🍿 ホタテガーリックバター</div><div class="pc-line">🎢 屋内エリア（今回は乗り物のみ）</div></div></div>
+          <div class="card"><div class="pcard"><b>ミステリアスアイランド</b><div class="pc-line">🍽 —</div><div class="pc-line">🎢 海底2万マイル（センターは117cmで除外）</div></div></div>
+        </div>
+      </div>
+    </details>
   </section>
 
   <!-- 雨天・休憩 -->
