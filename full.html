@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>ディズニーシー&ランド 2日間プラン（3歳・5歳／2026/5/26-27）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#1b62a8;--blue-mid:#2b8fd4;--blue-soft:#e8f1fa;
+    --gold:#c19a3e;--ink:#22303f;--ink-soft:#5b6b7a;
+    --bg:#fbfaf6;--card:#ffffff;--line:#dfe6ee;--closed:#b0392f;--green:#2f7d4f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Zen Maru Gothic",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:15px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px 80px}
+  header{background:var(--blue);color:#fff;padding:34px 16px 30px;text-align:center;border-bottom:5px solid var(--gold)}
+  header .eyebrow{font-size:13px;letter-spacing:.1em;color:#cfe2f4;margin-bottom:8px}
+  header h1{font-size:23px;font-weight:700;line-height:1.5}
+  header .dates{margin-top:12px;font-size:14px;color:#eaf3fb}
+  header .dates b{color:var(--gold);font-weight:700}
+  .stars{font-size:18px;letter-spacing:.3em;color:var(--gold);margin-bottom:6px}
+  nav{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.96);border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;padding:9px 12px}
+  nav a{flex:0 0 auto;font-size:13px;text-decoration:none;color:var(--blue);border:1px solid var(--line);background:#fff;padding:6px 12px;border-radius:20px;font-weight:500}
+  nav a:active{background:var(--blue);color:#fff}
+  section{margin-top:30px}
+  h2{font-size:19px;color:var(--blue);font-weight:700;display:flex;align-items:center;gap:9px;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--blue-soft)}
+  h2 .ic{width:26px;height:26px;flex:0 0 auto}
+  h3{font-size:16px;font-weight:700;margin:18px 0 8px;color:var(--ink)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+  .note{background:#fff6ed;border:1px solid #f0d8bd;border-left:4px solid var(--gold);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+  .alert{background:#fdeeec;border:1px solid #f1c4bd;border-left:4px solid var(--closed);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+  .good{background:#ecf6f0;border:1px solid #c3e2ce;border-left:4px solid var(--green);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+  .alert b{color:var(--closed)}.note b{color:var(--gold)}.good b{color:var(--green)}
+  table.sum{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+  table.sum th,table.sum td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line)}
+  table.sum th{background:var(--blue-soft);color:var(--blue);font-weight:700}
+  table.sum tr:last-child td{border-bottom:none}
+  .ok{color:var(--blue-mid);font-weight:700}.ng{color:var(--closed);font-weight:700}
+  .tl{position:relative;margin-left:6px;padding-left:24px;border-left:2px solid var(--blue-soft)}
+  .tl .item{position:relative;margin-bottom:16px}
+  .tl .item::before{content:"";position:absolute;left:-31px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--blue);border:3px solid #fff;box-shadow:0 0 0 2px var(--blue-soft)}
+  .tl .time{font-size:13px;font-weight:700;color:var(--gold)}
+  .tl .act{font-size:15px;font-weight:500;margin-top:2px}
+  .tl .sub{font-size:13px;color:var(--ink-soft);margin-top:2px}
+  .pill{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;margin-left:4px;vertical-align:middle}
+  .pill.dpa{background:var(--gold);color:#fff}
+  .pill.sb{background:var(--blue-soft);color:var(--blue)}
+  .pill.he{background:#e7f3ec;color:#2f7d4f}
+  .pill.show{background:#efe7f5;color:#7a4ea0}
+  .pill.kid{background:#fdeef3;color:#c25a86}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:520px){.grid{grid-template-columns:1fr}}
+  .tile{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  a.thumb{background:var(--blue-soft);display:flex;align-items:center;justify-content:center;padding:14px;min-height:120px;text-decoration:none;position:relative}
+  a.thumb svg{width:96px;height:96px}
+  a.thumb .cam{position:absolute;right:8px;bottom:8px;font-size:11px;background:rgba(27,98,168,.9);color:#fff;padding:2px 7px;border-radius:10px}
+  .tile .body{padding:12px 14px 14px}
+  .tile .ttl{font-size:15px;font-weight:700;line-height:1.4}
+  .tile .price{font-size:14px;color:var(--gold);font-weight:700;margin-top:3px}
+  .tile .desc{font-size:13px;color:var(--ink-soft);margin-top:6px}
+  .tile .where{font-size:12px;color:var(--blue);margin-top:7px;border-top:1px dashed var(--line);padding-top:7px}
+  .tag-best{display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;margin-bottom:6px}
+  ul.check{list-style:none}
+  ul.check li{padding:8px 0 8px 30px;position:relative;border-bottom:1px solid var(--line);font-size:14px}
+  ul.check li::before{content:"";position:absolute;left:2px;top:13px;width:14px;height:14px;border:2px solid var(--blue-mid);border-radius:4px}
+  ul.check li:last-child{border-bottom:none}
+  .lead{font-size:14px;color:var(--ink-soft);margin-bottom:12px}
+  .gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:8px}
+  .gallery figure{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+  .gallery img{width:100%;height:160px;object-fit:cover;display:block}
+  .gallery figcaption{font-size:12px;color:var(--ink-soft);padding:7px 10px;line-height:1.5}
+  .gallery .wide{grid-column:1 / -1}
+  .gallery .wide img{height:210px}
+  .credit{font-size:11px;color:var(--ink-soft);margin:0 0 14px}
+  .thumb-img{height:150px;overflow:hidden;background:var(--blue-soft)}
+  .thumb-img img{width:100%;height:100%;object-fit:cover;display:block}
+  .portmap{background:#eaf4fb;border:1px solid var(--line);border-radius:14px;padding:10px;margin-bottom:14px}
+  .portmap svg{width:100%;height:auto;display:block}
+  details.fold{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:14px;overflow:hidden}
+  details.fold>summary{cursor:pointer;padding:13px 16px;font-weight:700;color:var(--blue);background:var(--blue-soft);list-style:none}
+  details.fold>summary::-webkit-details-marker{display:none}
+  details.fold>summary::after{content:"＋ タップで開く";float:right;font-size:12px;font-weight:500;color:var(--ink-soft)}
+  details.fold[open]>summary::after{content:"− 閉じる"}
+  details.fold .pad{padding:14px 16px}
+  .pcard{font-size:13px;line-height:1.7}
+  .pcard b{color:var(--blue)}
+  .pc-line{margin-top:4px}
+  .rest{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
+  .rest:last-child{border-bottom:none}
+  .rest .rttl{font-weight:700;font-size:15px}
+  .rest .rmeta{font-size:13px;color:var(--ink-soft);margin-top:3px}
+  .badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;background:var(--blue-soft);color:var(--blue);margin-left:6px}
+  footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--ink-soft)}
+  footer a{color:var(--blue)}
+  footer .src{margin-top:8px;line-height:2}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="stars">✦ ✦ ✦</div>
+  <div class="eyebrow">東京ディズニーシー25周年 “スパークリング・ジュビリー” 開催中</div>
+  <h1>ディズニーシー & ランド<br>家族2日間プラン</h1>
+  <div class="dates">
+    <b>火 5/26</b> ディズニーシー ／ <b>水 5/27</b> ディズニーランド<br>
+    宿泊：東京ディズニーランドホテル ・ 大人2＋お子さま2（<b>3歳・5歳</b>）
+  </div>
+</header>
+
+<nav>
+  <a href="#key">重要ポイント</a>
+  <a href="#dpa">DPA戦略</a>
+  <a href="#sea">火 シー</a>
+  <a href="#land">水 ランド</a>
+  <a href="#rest">レストラン予約</a>
+  <a href="#food">25周年フード</a>
+  <a href="#goods">お土産</a>
+  <a href="#map">エリア/ポップコーン</a>
+  <a href="#rain">雨天・休憩</a>
+  <a href="#prep">事前準備</a>
+</nav>
+
+<div class="wrap">
+
+  <!-- 重要ポイント -->
+  <section id="key">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M12 3l9 16H3z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="16.5" r=".6" fill="#1b62a8"/></svg>最初に押さえる5つ</h2>
+
+    <div class="good">
+      <b>① 3歳・5歳向けの方針</b><br>
+      2人とも102cm以上なので<b>乗れるアトラクションはほぼ全部</b>。怖い絶叫系（タワー等）だけ外し、<b>人気の乗り物＋ショー＋キャラクターグリーティング</b>を効率よく。お金（DPA）は「待ち時間を減らして子供の機嫌を保つ」ために使います。<b>お昼寝休憩も計画に入れる</b>と夜まで保ちます。
+    </div>
+
+    <div class="alert">
+      <b>② 絶叫系も挑戦（身長クリア）</b><br>
+      2人とも102cm以上で全アトラクションの身長条件OK。揺れる系（スター・ツアーズ・ソアリン・ピーターパンFS）に加え、<b>タワー・オブ・テラー（シー）とスプラッシュ・マウンテン（ランド）も挑戦予定</b>。どちらも落下があるので、当日怖がったら<b>チャイルドスイッチ</b>で交代を（並ばず親が交互に乗れる）。
+    </div>
+
+    <div class="alert">
+      <b>③ 主要アトラクションが休止中</b><br>
+      ・シー：アナとエルサのフローズンジャーニー（5/12〜6/3）／マーメイドラグーンシアター<br>
+      ・ランド：ビッグサンダー／カリブの海賊／スペース・マウンテン／<b>空飛ぶダンボ（〜7/31）</b>。ダンボ目当ては不可なので注意
+    </div>
+
+    <div class="note">
+      <b>④ 15分前入場（ハッピーエントリー）はランドだけ</b><br>
+      ランドホテルの早入場は通常期間はランドのみ。火曜シーは通常9:00入園、水曜ランドは8:45頃から入園できます。
+    </div>
+
+    <div class="good">
+      <b>⑤ 子連れの強い味方</b><br>
+      <b>ベビーカーは持参</b>。3歳の移動・お昼寝に活躍、5歳も荷物置きに便利。ベビーカー置き場に停める際は貴重品を持ち歩く。親が乗りたいものは<b>チャイルドスイッチ</b>（交代利用）で。<b>ベビーセンター</b>（授乳・オムツ替え）の場所も確認を。
+    </div>
+
+    <table class="sum">
+      <tr><th>日付</th><th>パーク</th><th>営業</th><th>早入場</th></tr>
+      <tr><td>火 5/26</td><td>シー</td><td>9:00–21:00</td><td class="ng">なし</td></tr>
+      <tr><td>水 5/27</td><td>ランド</td><td>9:00–21:00</td><td class="ok">8:45〜</td></tr>
+    </table>
+  </section>
+
+  <!-- DPA戦略 -->
+  <section id="dpa">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="7" cy="14" r="1" fill="#1b62a8"/></svg>有料パス（DPA）の使い方</h2>
+    <p class="lead">子連れこそ「待たない」が正義。<b>子供が乗れて人気のもの</b>だけにDPAを絞って使います。</p>
+    <div class="card">
+      <ul class="check">
+        <li><b>同時に持てるのは1つ</b>。使用後または購入60分後に次を購入＝1日中スタッキング可</li>
+        <li>料金：ファンタジースプリングス内は<b>1人2,000円</b>／その他は概ね1,500〜2,500円</li>
+        <li>事前購入不可。<b>入園した瞬間にアプリで1本目を確保</b>。全員のチケットをアプリ連携しておく</li>
+        <li><b>時間は「その時の空き次第」</b>。購入時に指定時間（例：11:00〜12:00の枠）が割り当てられ、早く買うほど早い枠・選択肢が多い。ソアリンは遅いと枠が後ろ倒れ／売切れも</li>
+      </ul>
+      <div class="note" style="margin:12px 0 0">
+        <b>今回の狙い目DPA（子供が乗れる人気）</b><br>
+        シー＝<b>ソアリン（最優先）</b>／<b>トイ・ストーリー・マニア</b>／<b>タワー・オブ・テラー</b>／ピーターパン・ラプンツェル（FS）<br>
+        ランド＝<b>美女と野獣“魔法のものがたり”</b>／<b>プーさんのハニーハント</b>／<b>モンスターズ・インク</b>／<b>スプラッシュ・マウンテン</b>
+      </div>
+    </div>
+  </section>
+
+  <!-- 火曜シー -->
+  <section id="sea">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M3 16c2 0 2-1.5 4-1.5S9 16 11 16s2-1.5 4-1.5S17 16 19 16"/><path d="M3 20c2 0 2-1.5 4-1.5S9 20 11 20s2-1.5 4-1.5S17 20 19 20"/><path d="M12 3v6M9 6h6"/></svg>火 5/26 ディズニーシー</h2>
+    <p class="lead">子供が大好きな<b>マーメイドラグーン（屋内遊び場）</b>と<b>ファンタジースプリングスの優しい2つ</b>が主役。午後はお昼寝休憩を。</p>
+    <div class="tl">
+      <div class="item"><div class="time">8:15</div><div class="act">エントランス着（ベビーカー持参）</div><div class="sub">通常開園（早入場なし）。アプリ・チケット連携・通信を確認</div></div>
+      <div class="item"><div class="time">9:00 開園</div><div class="act">入園と同時にDPA「ソアリン」を購入<span class="pill dpa">最優先DPA</span></div><div class="sub">楽しみにしているソアリンを1本目に確保。早く買うほど早い時間が取れる（人気で枠が後ろ倒れ・売切れしやすい）</div></div>
+      <div class="item"><div class="time">9:10</div><div class="act">ファンタジースプリングスへ直行 → ピーターパン＋ラプンツェル＋ティンカーベル<span class="pill sb">スタンバイ</span></div><div class="sub">2人とも102cm以上で全部乗れる。朝イチは待ち短め。DPAはソアリンに使うのでFSはスタンバイで</div></div>
+      <div class="item"><div class="time">10:30</div><div class="act">アラビアンコーストの優しい乗り物</div><div class="sub">キャラバンカルーセル／ジャスミンのフライングカーペット／シンドバッド・ストーリーブック・ヴォヤッジ。乗り物中心でテンポよく</div></div>
+      <div class="item"><div class="time">11:00</div><div class="act">ソアリン（DPA枠で）→ 次のDPA「トイ・ストーリー・マニア」を確保<span class="pill dpa">DPA</span><span class="pill kid">3・5歳OK</span></div><div class="sub">楽しみのソアリンを堪能。使用後or購入60分後に次が買える＝トイマニ→タワー・オブ・テラーの順にDPAスタッキング</div></div>
+      <div class="item"><div class="time">13:35 予約済</div><div class="act">ダッフィー＆フレンズのショーレストラン（昼食＋ショー）<span class="pill show">ショー</span><span class="pill kid">3・5歳に最適</span></div><div class="sub">ケープコッド・クックオフで予約済み（13:35）。食べながら約20分のショー＝昼食・休憩・エンタメが一度に。3歳が空腹にならないよう11時台に軽食（うきわまん等）を挟む</div></div>
+      <div class="item"><div class="time">15:00</div><div class="act">タワー・オブ・テラーに挑戦<span class="pill dpa">DPA</span></div><div class="sub">落下系の絶叫。ダッフィーで座って休んだ後に。怖がったら<b>チャイルドスイッチ</b>で交代（並ばず親が交互に乗れる）。DPAは午前のうちに確保を</div></div>
+      <div class="item"><div class="time">15:30</div><div class="act">アトラクション周遊</div><div class="sub">ヴェネツィアン・ゴンドラ／タートル・トーク／海底2万マイル／ニモ&フレンズ・シーライダー（90cm）。揺れOKならソアリンを再度</div></div>
+      <div class="item"><div class="time">16:30</div><div class="act">25周年デイショー「スパークリング・ジュビリー・セレブレーション」<span class="pill show">ショー</span></div><div class="sub">メディテレーニアンハーバー。座って見られて子供も楽しい25周年の目玉</div></div>
+      <div class="item"><div class="time">17:30</div><div class="act">食べ歩き＆ショッピング</div><div class="sub">25周年フード（後述）。子供が疲れたら早めに切り上げる判断も</div></div>
+      <div class="item"><div class="time">夜</div><div class="act">「ビリーヴ！〜シー・オブ・ドリームス〜」<span class="pill show">ショー</span><span class="pill dpa">DPA鑑賞可</span></div><div class="sub">水のショー。子供が起きていられそうなら有料鑑賞エリアで確実に。眠ければ無理せず帰る</div></div>
+    </div>
+    <div class="note"><b>余裕があれば：</b>海底2万マイル（5/12再開・潜水艇でのんびり）やニモ&フレンズ・シーライダー（90cm）も子供向き。<b>タワー・オブ・テラー</b>は怖がったらチャイルドスイッチで無理なく。</div>
+  </section>
+
+  <!-- 水曜ランド -->
+  <section id="land">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-5h6v5"/><path d="M12 4V2"/></svg>水 5/27 ディズニーランド</h2>
+    <p class="lead">小さい子に優しいアトラクションが豊富。<b>ハッピーエントリー（8:45〜）で美女と野獣を先取り</b>し、あとは<b>トゥーンタウン</b>とショーでゆったり。</p>
+    <div class="tl">
+      <div class="item"><div class="time">8:00〜8:15</div><div class="act">ハッピーエントリー専用列に並ぶ（ベビーカー持参）<span class="pill he">早入場</span></div><div class="sub">ホテルのルームキー／アプリのチケットを準備</div></div>
+      <div class="item"><div class="time">8:45 入園</div><div class="act">「美女と野獣“魔法のものがたり”」へ直行<span class="pill sb">スタンバイ</span><span class="pill kid">制限なし</span></div><div class="sub">最重要・最奥。動きは比較的優しく5歳も3歳も乗れる。早入場の価値が最大</div></div>
+      <div class="item"><div class="time">9:00</div><div class="act">DPA1本目「プーさんのハニーハント」<span class="pill dpa">DPA</span><span class="pill kid">制限なし</span></div><div class="sub">人気No.1級。アプリ購入開始と同時に確保</div></div>
+      <div class="item"><div class="time">9:05</div><div class="act">「ジャンボリミッキー！レッツ・ダンス！」の抽選にエントリー<span class="pill show">抽選</span><span class="pill kid">3・5歳に大人気</span></div><div class="sub">アプリの「エントリー受付」で申込（無料・1グループ1日1回）。子供が一緒に踊れる大人気ショー。当たれば指定時間にショーベース（トゥモローランド）へ。外れても会場外の自由観賞ポイントで雰囲気は味わえる</div></div>
+      <div class="item"><div class="time">9:30</div><div class="act">ファンタジーランドの優しい乗り物</div><div class="sub">イッツ・ア・スモールワールド／ピーターパン空の旅（5/23再開）／アリスのティーパーティー／キャッスルカルーセル<span class="pill kid">全て制限なし</span></div></div>
+      <div class="item"><div class="time">10:45</div><div class="act">DPA2本目「モンスターズ・インク“ライド&ゴーシーク！”」<span class="pill dpa">DPA</span><span class="pill kid">制限なし</span></div><div class="sub">合間にバズ・ライトイヤーも。DPAはプーさん→モンスターズ→<b>スプラッシュ・マウンテン</b>の順にスタッキング</div></div>
+      <div class="item"><div class="time">12:00</div><div class="act">昼食（事前予約：キャラクターダイニング）</div><div class="sub">クリスタルパレス（プーさん）orポリネシアンテラス（ショー）。子供が大喜び。後述参照</div></div>
+      <div class="item"><div class="time">13:30</div><div class="act">お昼寝休憩 🛌</div><div class="sub">ベビーカーで昼寝。トゥーンタウン奥の芝生でひと休みも</div></div>
+      <div class="item"><div class="time">15:00</div><div class="act">スプラッシュ・マウンテンに挑戦<span class="pill dpa">DPA</span>＋ミート・ミッキー</div><div class="sub">最後に落下する絶叫系（90cm・当日アプリで運営確認）。怖がったら<b>チャイルドスイッチ</b>で交代。DPAは午前のうちに確保を。ミート・ミッキーで記念写真も</div></div>
+      <div class="item"><div class="time">16:30</div><div class="act">のんびり系＋食べ歩き</div><div class="sub">ジャングルクルーズ／蒸気船マークトウェイン号（5/22再開）／ウエスタンリバー鉄道<span class="pill kid">抱っこOK</span></div></div>
+      <div class="item"><div class="time">夜</div><div class="act">エレクトリカルパレード・ドリームライツ<span class="pill show">パレード</span><span class="pill dpa">DPA鑑賞可</span></div><div class="sub">光るパレードは子供が大興奮。有料鑑賞エリアなら座って待てて楽。眠ければ無理せず</div></div>
+    </div>
+    <div class="alert"><b>休止で乗れないもの：</b>ビッグサンダー／カリブの海賊／スペース・マウンテン／<b>空飛ぶダンボ（〜7/31）</b>／スイスファミリー・ツリーハウス。ダンボが目当てだった場合は注意。</div>
+  </section>
+
+  <!-- レストラン予約 -->
+  <section id="rest">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M6 3v8a2 2 0 002 2v8M6 3v4M9 3v4M19 3c-1.5 0-3 2-3 6 0 2 1 3 2 3v8"/></svg>レストラン予約の手順</h2>
+
+    <div class="alert">
+      <b>1ヶ月前の事前枠は終了しています</b>（5/26分=4/26、5/27分=4/27が締切済）。今からは下の3手で枠を狙います。
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">予約の取り方（今すぐ〜当日）</h3>
+      <ul class="check">
+        <li><b>① 今すぐオンラインで空き確認</b>：<a href="https://reserve.tokyodisneyresort.jp/" target="_blank" rel="noopener">公式オンライン予約サイト</a>／アプリ。キャンセルが出て<b>前日20:59まで</b>空きが拾えることがある</li>
+        <li><b>② 前日夜（〜20:59）に粘る</b>：直前キャンセルが出やすい時間帯。こまめに更新</li>
+        <li><b>③ 当日9:00から当日枠</b>：オンライン or 店頭で受付。開園直後にアプリで即チェック</li>
+      </ul>
+      <div class="note" style="margin-top:12px">受付は1日3枠（朝・昼・夕 各1）まで。<b>キャラクターダイニング／ショーレストランは特に人気</b>なので最優先で確保を。</div>
+    </div>
+
+    <h3>火 シー（おすすめ＝ダッフィーのショーレストラン）</h3>
+    <div class="good"><b>5/26に空きあり！</b> 「ダッフィー＆フレンズのワンダフル・フレンドシップ」（ケープコッド・クックオフ）。食事しながら約20分のショーで子供が大喜び＆座って休めて昼食も済む“一石三鳥”。<b>A席15:00 or B席13:35のランチ枠が狙い目</b>。</div>
+    <div class="card">
+      <div class="rest"><div><div class="rttl">ダッフィー＆フレンズのショーレストラン<span class="badge">最優先</span></div><div class="rmeta">A席：大人3,600円／子供(4才〜小学生)3,100円　B席：大人3,100円／子供2,600円　※3才以下0円。所要約65分（ショー約20分）。大人2＋5歳＋3歳＝A席10,300円／B席8,800円</div></div></div>
+      <div class="rest"><div><div class="rttl">マゼランズ<span class="badge">高級・記念</span></div><div class="rmeta">25周年コレクタブルグラス付きドリンクあり。要塞内の特別な雰囲気</div></div></div>
+      <div class="rest"><div><div class="rttl">ホライズンベイ・レストラン<span class="badge">子連れ向き</span></div><div class="rmeta">洋食プレートで取り分けやすい。25周年スペシャルセットあり</div></div></div>
+    </div>
+    <div class="note"><b>席ありが取れなくても大丈夫：</b>シーは予約不要の店が豊富。<b>カスバ・フードコート</b>（コンビカレー1,550円）や<b>ザンビーニ</b>（25周年セット2,050円）は予約なしで25周年メニューが食べられ子連れにも◎。混雑（12〜13時）を外すと快適。</div>
+    <div class="good"><b>お子様ランチの扱い（重要）</b><br>
+    ・ダッフィーのショーレストラン＝<b>5歳はお子様メニュー込み</b>（ハンバーガー・ナゲット・ゼリー等＋スーベニアコースター）。<b>3歳（無料）は専用メニューなし→取り分け</b>、追加可否は当日キャストに確認<br>
+    ・2人とも単独のお子様ランチを食べさせたいなら<b>ホライズンベイのお子様セット 1,040円</b>（ハンバーグ・ケチャップおにぎり等／予約不要のバフェテリア）が王道</div>
+
+    <h3>水 ランド（キャラクターで子供が大喜び）</h3>
+    <div class="card">
+      <div class="rest"><div><div class="rttl">クリスタルパレス・レストラン<span class="badge">プーさん登場</span></div><div class="rmeta">ランド唯一のブッフェ。プーさん達がテーブルを回る。子連れ最強・3歳以下無料</div></div></div>
+      <div class="rest"><div><div class="rttl">ポリネシアンテラス・レストラン<span class="badge">ショー付き</span></div><div class="rmeta">食事しながらキャラクターのショーを鑑賞。途中でテーブルにも来てくれる（専用予約枠）</div></div></div>
+      <div class="rest"><div><div class="rttl">シャーウッドガーデン・レストラン<span class="badge">ホテル内</span></div><div class="rmeta">ランドホテルのブッフェ。チェックイン/アウト日に使いやすく落ち着いて食べられる</div></div></div>
+    </div>
+  </section>
+
+  <!-- 25周年フード -->
+  <section id="food">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 13c1.5 2 6.5 2 8 0"/><circle cx="9" cy="9.5" r="1" fill="#1b62a8"/><circle cx="15" cy="9.5" r="1" fill="#1b62a8"/></svg>25周年フード おすすめ</h2>
+    <p class="lead">「ジュビリーブルー」で統一された限定メニュー。<b>写真はすべて実物（公式リリース）</b>。価格は目安。</p>
+    <div class="note"><b>25周年フードは火曜のシー限定。</b>ランドは別アニバーサリー（2026年で43周年）なので25周年メニューはありません。25周年グルメは火曜に満喫を。</div>
+
+    <h3>食べ歩き（子供と分けやすい）</h3>
+    <div class="grid">
+      <div class="tile">
+        <div class="thumb-img"><img src="images/f_macaron.jpg" alt="ミッキーマカロン" loading="lazy"></div>
+        <div class="body"><span class="tag-best">25周年限定</span><div class="ttl">ミッキーマカロン</div><div class="price">650円</div><div class="desc">スミレ香るホワイトチョコクリーム。ジュビリーブルーが鮮やか</div><div class="where">マンマ・ビスコッティーズ／ジュビリーワゴン 他</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/f_lassi.jpg" alt="スペシャルラッシー" loading="lazy"></div>
+        <div class="body"><span class="tag-best">25周年限定</span><div class="ttl">スペシャルラッシー</div><div class="price">750円</div><div class="desc">マンゴー＆ブルーゼリー。甘くて子供も飲みやすい</div><div class="where">カスバ・フードコート</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/f_churros.jpg" alt="ミッキーチュロス" loading="lazy"></div>
+        <div class="body"><div class="ttl">ミッキーチュロス（クッキー&クリーム）</div><div class="price">650円</div><div class="desc">片手で食べ歩き。子供も大人も大好きな王道</div><div class="where">ザンビーニ／ドックサイドダイナー 他</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/f_sparkling.jpg" alt="スパークリングドリンク" loading="lazy"></div>
+        <div class="body"><div class="ttl">スパークリングドリンク</div><div class="price">750円</div><div class="desc">キウイ＆ライム。よく混ぜると鮮やかなジュビリーブルー</div><div class="where">ザンビーニ 他</div></div>
+      </div>
+    </div>
+
+    <h3>セットメニュー</h3>
+    <div class="grid">
+      <div class="tile">
+        <div class="thumb-img"><img src="images/f_zambini.jpg" alt="スペシャルセット（ザンビーニ）" loading="lazy"></div>
+        <div class="body"><span class="tag-best">おすすめ</span><div class="ttl">スペシャルセット（ザンビーニ）</div><div class="price">2,050円</div><div class="desc">トリュフ香るカルボナーラ＋ピザ。取り分けやすく満足度高い</div><div class="where">ザンビーニ・ブラザーズ・リストランテ</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/f_curry.jpg" alt="スペシャルコンビカリーライス" loading="lazy"></div>
+        <div class="body"><span class="tag-best">子連れ向き</span><div class="ttl">スペシャルコンビカリーライス</div><div class="price">1,550円</div><div class="desc">中辛ビーフ＆甘口チキンの2種＋ナン。取り分けやすい</div><div class="where">カスバ・フードコート</div></div>
+      </div>
+    </div>
+    <h3>その他の25周年フード</h3>
+    <div class="gallery">
+      <figure><img src="images/f_seafood.jpg" alt="シーフード＆ローストビーフのセット" loading="lazy"><figcaption>スペシャルセット（シーフード＆ローストビーフ）</figcaption></figure>
+      <figure><img src="images/f_hamburg.jpg" alt="ハンバーグのセット" loading="lazy"><figcaption>スペシャルセット（ハンバーグ）</figcaption></figure>
+      <figure><img src="images/f_ricebowl.jpg" alt="スペシャルライスボウル" loading="lazy"><figcaption>スペシャルライスボウル</figcaption></figure>
+      <figure><img src="images/f_popcorn.jpg" alt="ポップコーンバケット" loading="lazy"><figcaption>ポップコーンバケット（スーベニア）</figcaption></figure>
+    </div>
+    <p class="credit">写真：オリエンタルランド公式リリース（PR TIMES）</p>
+    <div class="note"><b>混ぜると青くなるレモネード</b>（750円・カフェ・ポルトフィーノ等）も写真映え＆子供が喜ぶので食べ歩きに◎。</div>
+  </section>
+
+  <!-- お土産 -->
+  <section id="goods">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 8h18M12 8v13"/><path d="M12 8S9 3 7 5s2 3 5 3M12 8s3-5 5-3-2 3-5 3"/></svg>25周年お土産 おすすめ</h2>
+    <p class="lead">5/25に<b>25周年グッズ第2弾＆新作</b>が発売されたばかり。翌日の訪問は新作が並ぶベストタイミング。<b>写真はすべて実物（公式リリース）</b>。価格は目安。</p>
+    <div class="grid">
+      <div class="tile">
+        <div class="thumb-img"><img src="images/g_plush8.jpg" alt="8テーマポート ミッキー&フレンズ ぬいぐるみ" loading="lazy"></div>
+        <div class="body"><span class="tag-best">5/25新作</span><div class="ttl">8テーマポート ミッキー&フレンズ ぬいぐるみ</div><div class="price">要確認（新作）</div><div class="desc">8つの港の衣装をまとったミッキー&フレンズ。集めたくなる第2弾の目玉</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/g_wear.jpg" alt="カチューシャ・身につけグッズ" loading="lazy"></div>
+        <div class="body"><div class="ttl">カチューシャ・身につけグッズ</div><div class="price">カチューシャ 2,400円</div><div class="desc">キラキラのカチューシャ・キャップ・Tシャツ。家族でつければ写真も25周年仕様に</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/g_charms.jpg" alt="ジュビリーバッジ／チャーム" loading="lazy"></div>
+        <div class="body"><span class="tag-best">カスタム</span><div class="ttl">ジュビリーバッジ／チャーム</div><div class="price">1,600円〜</div><div class="desc">バッジ＋リボン＋チャーム＋ストラップを自由に組合せ。子供が夢中になる</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/g_locket.jpg" alt="ジュビリーロケット" loading="lazy"></div>
+        <div class="body"><span class="tag-best">5/25新作</span><div class="ttl">ジュビリーロケット</div><div class="price">要確認（新作）</div><div class="desc">パーツを組合せてオリジナルに。最新カスタムグッズ</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/g_ring.jpg" alt="ミッキー&ミニー ぬいぐるみリング" loading="lazy"></div>
+        <div class="body"><div class="ttl">ミッキー&ミニー ぬいぐるみリング</div><div class="price">要確認</div><div class="desc">指につける小さなぬいぐるみ。ペアでかわいい身につけグッズ</div></div>
+      </div>
+      <div class="tile">
+        <div class="thumb-img"><img src="images/g_light.jpg" alt="光るグッズ（夜のパーク向け）" loading="lazy"></div>
+        <div class="body"><div class="ttl">光るグッズ（夜のパーク向け）</div><div class="price">要確認</div><div class="desc">暗くなると光るペンダント等。夜のショー・パレードで子供が喜ぶ</div></div>
+      </div>
+    </div>
+    <h3>その他の25周年グッズ</h3>
+    <div class="gallery">
+      <figure><img src="images/g_flag.jpg" alt="ミニフラッグ" loading="lazy"><figcaption>ミニフラッグ（8キャラクター）</figcaption></figure>
+      <figure><img src="images/g_zakka.jpg" alt="雑貨・文房具" loading="lazy"><figcaption>雑貨・文房具（マグ・トート・ノート 等）</figcaption></figure>
+      <figure><img src="images/g_souvenir.jpg" alt="フードスーベニア食器" loading="lazy"><figcaption>フードスーベニア（グラス・食器 等）</figcaption></figure>
+      <figure><img src="images/g_macaron.jpg" alt="マカロン型グッズ" loading="lazy"><figcaption>マカロン型グッズ</figcaption></figure>
+    </div>
+    <p class="credit">写真：オリエンタルランド公式リリース（PR TIMES）</p>
+    <div class="note"><b>ばらまき土産：</b>個包装のマシュマロ缶（800円）等も。人気の新作は<b>午前の早い時間</b>か夜の混雑前に。閉園間際は売り切れ・レジ混雑に注意。</div>
+  </section>
+
+  <!-- エリアマップ＆ポップコーン -->
+  <section id="map">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>エリアマップ＆ポップコーン</h2>
+    <p class="lead">シーは8つのエリア（テーマポート）に分かれています。どこに何があるか、ポップコーンの味マップ付き。</p>
+
+    <details class="fold">
+      <summary>🗺 シーのエリアマップ（位置の目安）</summary>
+      <div class="pad">
+        <div class="portmap">
+          <svg viewBox="0 0 360 340" role="img" aria-label="ディズニーシー エリア配置図">
+            <!-- 火山 -->
+            <polygon points="180,118 150,182 210,182" fill="#b08968"/>
+            <polygon points="180,118 168,144 192,144" fill="#fff"/>
+            <text x="180" y="198" font-size="7.5" fill="#5b6b7a" text-anchor="middle">ミステリアスアイランド</text>
+            <!-- ファンタジースプリングス -->
+            <g><rect x="100" y="12" width="160" height="30" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="174" y="31" font-size="8.5" fill="#22303f" text-anchor="middle">ファンタジースプリングス 🍿</text></g>
+            <!-- ロストリバーデルタ -->
+            <g><rect x="256" y="58" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="303" y="74" font-size="7.5" fill="#22303f" text-anchor="middle">ロストリバー</text><text x="303" y="86" font-size="7.5" fill="#22303f" text-anchor="middle">デルタ 🍿</text></g>
+            <!-- アラビアンコースト -->
+            <g><rect x="10" y="58" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="57" y="74" font-size="7.5" fill="#22303f" text-anchor="middle">アラビアン</text><text x="57" y="86" font-size="7.5" fill="#22303f" text-anchor="middle">コースト 🍿</text></g>
+            <!-- ポートディスカバリー -->
+            <g><rect x="256" y="140" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="303" y="156" font-size="7.5" fill="#22303f" text-anchor="middle">ポート</text><text x="303" y="168" font-size="7.5" fill="#22303f" text-anchor="middle">ディスカバリー 🍿</text></g>
+            <!-- マーメイドラグーン -->
+            <g><rect x="10" y="140" width="94" height="38" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="57" y="156" font-size="7.5" fill="#22303f" text-anchor="middle">マーメイド</text><text x="57" y="168" font-size="7.5" fill="#22303f" text-anchor="middle">ラグーン 🍿</text></g>
+            <!-- アメリカンウォーターフロント -->
+            <g><rect x="232" y="232" width="118" height="40" rx="8" fill="#fff" stroke="#2b8fd4" stroke-width="1.2"/><text x="291" y="249" font-size="7.5" fill="#22303f" text-anchor="middle">アメリカン</text><text x="291" y="261" font-size="7.5" fill="#22303f" text-anchor="middle">ウォーターフロント 🍿</text></g>
+            <!-- メディテレーニアンハーバー -->
+            <g><rect x="88" y="288" width="184" height="40" rx="8" fill="#fff" stroke="#c19a3e" stroke-width="1.5"/><text x="180" y="305" font-size="8.5" fill="#22303f" text-anchor="middle">メディテレーニアンハーバー 🍿</text><text x="180" y="318" font-size="7.5" fill="#5b6b7a" text-anchor="middle">（入口・ソアリン・夜のショー）</text></g>
+          </svg>
+        </div>
+        <p class="credit">配置はおおよその目安です。正確な現在地は公式アプリの地図を併用してください。</p>
+      </div>
+    </details>
+
+    <h3>🍿 ポップコーン味マップ</h3>
+    <p class="lead">全味 レギュラーボックス¥400／リフィル¥600（バケットは別売）。2026年5月時点。</p>
+    <table class="sum">
+      <tr><th>場所（エリア）</th><th>味</th></tr>
+      <tr><td>リドアイル前（メディテレーニアン）</td><td>ガーリックシュリンプ</td></tr>
+      <tr><td>ソアリン前（メディテレーニアン）</td><td>ブラックペッパー</td></tr>
+      <tr><td>ドックサイドステージ前（アメリカンWF）</td><td>キャラメル</td></tr>
+      <tr><td>リバティ前（アメリカンWF）</td><td>ホタテガーリックバター</td></tr>
+      <tr><td>ケープコッド前（アメリカンWF）</td><td>ミルクチョコレート</td></tr>
+      <tr><td>アクアトピア横（ポートディスカバリー）</td><td>しょうゆバター</td></tr>
+      <tr><td>ハンガーステージ横（ロストリバーD）</td><td>ソルト</td></tr>
+      <tr><td>コーヴ・オブ・ワンダー横（ロストリバーD）</td><td>キャラメル</td></tr>
+      <tr><td>アラビアンコースト前</td><td>カレー</td></tr>
+      <tr><td>スカットルのスクーター前（マーメイド）</td><td>ホタテガーリックバター</td></tr>
+      <tr><td>ティンカーベル前（ファンタジースプリングス）</td><td>ガーリックシュリンプ</td></tr>
+    </table>
+    <div class="note">甘いのが好きなら<b>キャラメル／ミルクチョコ</b>、しょっぱい系は<b>ソルト／しょうゆバター</b>が子供に人気。ダッフィーのショー（ケープコッド）の近くは<b>ミルクチョコレート</b>です。</div>
+
+    <details class="fold">
+      <summary>📍 エリア別 早見（メニュー・アトラクションの場所）</summary>
+      <div class="pad">
+        <div class="grid">
+          <div class="card"><div class="pcard"><b>メディテレーニアンハーバー</b>（入口）<div class="pc-line">🍿 ガーリックシュリンプ／ブラックペッパー</div><div class="pc-line">🍽 マカロン・チュロス・スパークリングドリンク・ザンビーニのセット・マゼランズ</div><div class="pc-line">🎢 ソアリン／夜「ビリーヴ」</div></div></div>
+          <div class="card"><div class="pcard"><b>アメリカンウォーターフロント</b><div class="pc-line">🍿 キャラメル／ホタテガーリックバター／ミルクチョコ</div><div class="pc-line">🍽 ダッフィーのショーレストラン（ケープコッド・13:35予約）・サンデー</div><div class="pc-line">🎢 トイ・ストーリー・マニア・タワー・オブ・テラー</div></div></div>
+          <div class="card"><div class="pcard"><b>ファンタジースプリングス</b><div class="pc-line">🍿 ガーリックシュリンプ</div><div class="pc-line">🎢 ピーターパン・ラプンツェル・ティンカーベル</div></div></div>
+          <div class="card"><div class="pcard"><b>アラビアンコースト</b><div class="pc-line">🍿 カレー</div><div class="pc-line">🍽 カスバ・フードコート（カレー・ラッシー）</div><div class="pc-line">🎢 キャラバンカルーセル・ジャスミン・シンドバッド</div></div></div>
+          <div class="card"><div class="pcard"><b>ポートディスカバリー</b><div class="pc-line">🍿 しょうゆバター</div><div class="pc-line">🍽 ホライズンベイ・レストラン（お子様セット）</div><div class="pc-line">🎢 ニモ&フレンズ・シーライダー（90cm）</div></div></div>
+          <div class="card"><div class="pcard"><b>ロストリバーデルタ</b><div class="pc-line">🍿 ソルト／キャラメル</div><div class="pc-line">🍽 ミゲルズ（うきわまんセット）</div><div class="pc-line">🎢 インディは休止中</div></div></div>
+          <div class="card"><div class="pcard"><b>マーメイドラグーン</b><div class="pc-line">🍿 ホタテガーリックバター</div><div class="pc-line">🎢 屋内エリア（今回は乗り物のみ）</div></div></div>
+          <div class="card"><div class="pcard"><b>ミステリアスアイランド</b><div class="pc-line">🍽 —</div><div class="pc-line">🎢 海底2万マイル（センターは117cmで除外）</div></div></div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- 雨天・休憩 -->
+  <section id="rain">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M7 16a5 5 0 01-1-9.9A6 6 0 0118 8a4 4 0 011 7.9"/><line x1="8" y1="20" x2="8" y2="22"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="16" y1="20" x2="16" y2="22"/></svg>雨天・お昼寝休憩プラン</h2>
+    <p class="lead">天気が崩れたら<b>屋内中心</b>に切替。小さい子は無理せず、屋内で遊ぶ＆休むのが正解。雨の日は空いていてむしろ快適なことも。</p>
+
+    <h3>☔ 雨の日のシー（屋内中心）</h3>
+    <div class="card">
+      <ul class="check">
+        <li><b>マーメイドラグーン「トリトンズ・キングダム」</b>＝完全屋内。フランダーのコースター等の乗り物が集まり移動も濡れない。雨の日の本拠地に</li>
+        <li>マジックランプシアター／タートル・トーク＝座って見るシアター系で長め</li>
+        <li>トイ・ストーリー・マニア（屋内待機列）／シンドバッド（濡れない）</li>
+      </ul>
+    </div>
+
+    <h3>☔ 雨の日のランド（屋内中心）</h3>
+    <div class="card">
+      <ul class="check">
+        <li>プーさんのハニーハント／モンスターズ・インク／バズ＝屋内で子供が好きな定番</li>
+        <li>イッツ・ア・スモールワールド／ピーターパン空の旅＝濡れずに乗れる</li>
+        <li>ミート・ミッキー（屋内グリーティング）は雨でも快適。屋内の乗り物・ショー中心に切替を</li>
+        <li>カントリーベア・シアター＝座って見られる屋内ショー</li>
+      </ul>
+    </div>
+
+    <h3>🛌 休憩スポット（子供を休ませる）</h3>
+    <div class="card">
+      <ul class="check">
+        <li><b>ベビーセンター</b>：授乳・オムツ替え・温かい飲み物。シー＝マーメイドラグーン内、ランド＝トゥーンタウン等</li>
+        <li>レストランでゆっくり昼食＝最良の休憩。予約しておけば並ばず座れる</li>
+        <li>ベビーカーでお昼寝（屋根のある通路・木陰）。疲れる前の早めの休憩が機嫌を保つ鍵</li>
+        <li>無理そうな日は<b>一旦ホテルへ戻って昼寝</b>→夕方再入園もあり（ランドホテルは至近）</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 事前準備 -->
+  <section id="prep">
+    <h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#1b62a8" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>事前準備チェックリスト</h2>
+    <div class="card">
+      <ul class="check">
+        <li><b>今すぐ：</b>レストラン予約に挑戦（前日20:59まで＋当日9:00枠）。キャラクターダイニングは最優先</li>
+        <li>全員分のパークチケットを公式アプリに連携・ログイン確認</li>
+        <li>モバイルバッテリー必須（DPA購入・地図・写真で電池を使う）</li>
+        <li>ベビーカー持参（レインカバーがあると雨天も安心）。置き場に停める際は貴重品を持ち歩く</li>
+        <li>子供の着替え一式・タオル・おやつ・飲み物・絆創膏。汗＆雨＆食べこぼし対策</li>
+        <li>火曜8:15／水曜8:00〜8:15にゲート到着できる動線を確認</li>
+        <li>当日朝、公式アプリで<b>休止情報の最終確認</b>（運営状況は変わる）</li>
+        <li>水ランドは入園後すぐ<b>ジャンボリミッキー！の抽選にエントリー</b>（無料・1日1回・子供に大人気）。タワー／スプラッシュの<b>DPAは午前に確保</b></li>
+        <li>子供の身長を測っておく（90cm制限のアトラクション可否判断のため）</li>
+        <li>夜のショーは「見られたらラッキー」。眠ければ無理せず切り上げる前提で</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div>作成：AIM秘書 ／ 2026-05-24時点の公式・各種情報に基づく目安。営業時間・休止・価格・販売・予約状況は変更されるため、当日は公式アプリで最終確認してください。</div>
+    <div class="src">
+      参考：
+      <a href="https://www.tokyodisneyresort.jp/treasure/tds25th/">シー25周年公式</a> ／
+      <a href="https://www.tokyodisneyresort.jp/tdr/guide/baby.html">3才以下のお子さま向け公式</a> ／
+      <a href="https://www.tokyodisneyresort.jp/hotel/topics/info/happy_entry.html">ハッピーエントリー公式</a> ／
+      <a href="https://www.tokyodisneyresort.jp/tdr/guide/app_service/disneypremieraccess.html">DPA公式</a> ／
+      <a href="https://reserve.tokyodisneyresort.jp/">レストラン予約</a> ／
+      <a href="https://www.tokyodisneyresort.jp/tds/monthly/stop.html">シー休止情報</a> ／
+      <a href="https://www.tokyodisneyresort.jp/tdl/monthly/stop.html">ランド休止情報</a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
